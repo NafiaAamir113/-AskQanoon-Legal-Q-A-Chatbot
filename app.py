@@ -27,7 +27,7 @@ if INDEX_NAME not in existing_indexes:
 index = pc.Index(INDEX_NAME)
 
 # Load embedding model
-embed_model = SentenceTransformer('all-MiniLM-L6-v2')  # or your own fine-tuned model
+embed_model = SentenceTransformer('all-MiniLM-L6-v2', device='cpu')  # or your own fine-tuned model
 
 # Input from user
 query = st.text_input("Enter your legal question:")
