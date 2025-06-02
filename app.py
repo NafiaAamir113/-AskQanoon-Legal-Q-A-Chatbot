@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 
 # Streamlit page setup
 st.set_page_config(page_title="AskQanoon - Legal Assistant", layout="wide")
-st.title("⚖️ AskQanoon - Legal Assistant Chatbot")
+st.title("⚖️ AskQanoon ")
 st.markdown("Ask legal questions and get AI-powered assistance.")
 
 # Load secrets from .streamlit/secrets.toml
