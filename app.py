@@ -4,7 +4,7 @@ import pinecone
 from sentence_transformers import SentenceTransformer, CrossEncoder
 
 # Streamlit page setup
-st.set_page_config(page_title="LEGAL ASSISTANT", layout="wide")
+st.set_page_config(page_title="ASKQANOON", layout="wide")
 
 # Load secrets from Streamlit secrets management
 PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
