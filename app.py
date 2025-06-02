@@ -28,8 +28,8 @@ embedding_model = SentenceTransformer("BAAI/bge-large-en")
 reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 
 # Page Title and Description
-st.title("⚖️ LEGAL ASSISTANT")
-st.markdown("This AI-powered legal assistant retrieves relevant legal documents and provides accurate responses to your legal queries.")
+st.title("🕊️ ASK QANOON")
+st.markdown("This chatbot retrieves relevant legal documents and provides accurate responses to your legal queries.")
 
 # Input field
 query = st.text_input("Enter your legal question:")
